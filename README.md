@@ -30,6 +30,7 @@ My project includes the following files:
 * drive.py for driving the car in autonomous mode
 * model_10eps.h5 containing a trained convolution neural network
 * writeup_report.md summarizing the results
+* Video BehavioralCloning.mp4 /*As this file is large, I could not update it into Github for now. Please see in the Youtube link as in the Results section*/
 
 Using the Udacity provided simulator and drive.py file, the car can be driven autonomously around the track by executing 
 ```sh
@@ -92,7 +93,7 @@ I choosed the result where training loss is decreasing while validation loss sta
 
 The car drive itself in normal road. But it still struggles in some parts of the road or different roads.
 Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8).
-<video src="video/BehavioralCloning.mp4" width="320" height="200" controls preload></video>
+[![Alt text](http://img.youtube.com/vi/YwTNOnwVOt8/0.jpg)](https://www.youtube.com/watch?v=YwTNOnwVOt8)
 
 ### Future Works and Improvements
 
