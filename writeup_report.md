@@ -1,10 +1,9 @@
 # **Behavioral Cloning** 
 
 ## Writeup Report
-
 The Behavioral Cloning project is a part of Self-Driving Car Nanodegree Program by Udacity. In this project, I applied deep learning technologies to train a convolutional neural network (CNN) to map raw pixels from a front-facing camera directly to steering commands. For the neural network architecture details, please refer to [NVIDIA paper](https://arxiv.org/abs/1604.07316).
----
 
+---
 **Behavioral Cloning Project**
 
 The goals / steps of this project are the following:
@@ -31,6 +30,7 @@ My project includes the following files:
 * drive.py for driving the car in autonomous mode
 * model_10eps.h5 containing a trained convolution neural network
 * writeup_report.md summarizing the results
+* Video BehavioralCloning.mp4 /*As this file is large, I could not update it into Github for now. Please see in the Youtube link as in the Results section*/
 
 Using the Udacity provided simulator and drive.py file, the car can be driven autonomously around the track by executing 
 ```sh
@@ -72,7 +72,7 @@ model.compile(loss='mse', optimizer='adam')
 ### Learning Data and Preprocessing
 
 For this project, I used the data samples provided by Udacity. I also recorded new data for two tracks for future verification and improvements.
-The data is splitted into two parts, 80% is used for training and 20% is used for validating. The data can be found [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip).
+The data is splitted into two parts, 80% is used for training and 20% is used for validating.
 
 For preprocessig data, the following steps have been used:
 * Data augmentation: flipping the images and steering measurements
@@ -92,8 +92,9 @@ I choosed the result where training loss is decreasing while validation loss sta
 ### Results
 
 The car drive itself in normal road. But it still struggles in some parts of the road or different roads.
-Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8)
-[![Watch the video](https://www.youtube.com/watch?v=YwTNOnwVOt8)
+Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8).
+
+[![Alt text](http://img.youtube.com/vi/YwTNOnwVOt8/0.jpg)](https://www.youtube.com/watch?v=YwTNOnwVOt8)
 
 ### Future Works and Improvements
 
@@ -102,25 +103,3 @@ I consider the following things for my future works in this project:
 * For the End-to-End Learning model, try with further feature engineering techniques and different data samples, applying more advanced techniques to improve the accuracy 
 and reduce overfitting like dropout, L2-Regularization, etc...
 * Trying with other neural networks like LeNet, VGG, Comma.ai, and other state-of-the-art models for Self-Driving Car the compare the performance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
