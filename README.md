@@ -91,8 +91,8 @@ I choosed the result where training loss is decreasing while validation loss sta
 ### Results
 
 The car drive itself in normal road. But it still struggles in some parts of the road or different roads.
-Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8)
-[![Watch the video](https://www.youtube.com/watch?v=YwTNOnwVOt8)]
+Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8).
+<video src="video/BehavioralCloning.mp4" width="320" height="200" controls preload></video>
 
 ### Future Works and Improvements
 
