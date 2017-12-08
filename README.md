@@ -92,7 +92,7 @@ I choosed the result where training loss is decreasing while validation loss sta
 
 The car drive itself in normal road. But it still struggles in some parts of the road or different roads.
 Please see my result in [this video](https://www.youtube.com/watch?v=YwTNOnwVOt8)
-[![Watch the video](https://www.youtube.com/watch?v=YwTNOnwVOt8)
+[![Watch the video](https://www.youtube.com/watch?v=YwTNOnwVOt8)]
 
 ### Future Works and Improvements
 
